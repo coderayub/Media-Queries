@@ -1,0 +1,37 @@
+header{
+    color: blueviolet;
+    background-color: lightblue;
+}
+body{
+    color: brown;
+    background-color: lightcoral;
+}
+h1{
+    color: darkred;
+    background-color: darkcyan;
+}
+div{
+    border-radius: 10px solid black;
+}
+footer{
+    color: darkgreen;
+}
+@media screen and (min-width:680px){
+    body{
+        background-color: forestgreen;
+        
+    }
+    div{
+        background-color: skyblue;
+        border-radius: 3px solid black;
+        width: 30%;
+    }
+    h1{
+        color: aqua;
+        background-color:darkolivegreen;
+        font-size: 3rem;
+    }
+    #book_list{
+        overflow: 300px 300px;
+    }
+}
